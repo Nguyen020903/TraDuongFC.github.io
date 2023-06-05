@@ -10,7 +10,7 @@ body {
 /* Header */
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: red;
 }
 
 #navbar a {
