@@ -1,0 +1,159 @@
+/* main.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #DA291C;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 24px;
+}
+
+/* Players Section */
+#players {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.position-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.position-section h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.player {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.player-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.player-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player-info {
+  margin-top: 10px;
+}
+
+.player-info h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.player-info h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.player-info h4 a:hover {
+  text-decoration: none;
+}
+
+/* Stadium Section */
+#stadium {
+  background-color: #f2f2f2;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#stadium img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
