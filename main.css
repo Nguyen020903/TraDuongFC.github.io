@@ -39,6 +39,7 @@ body {
 
 .sticky {
   position: fixed;
+  z-index: 100;
   top: 0;
   width: 100%;
 }
@@ -50,7 +51,8 @@ body {
 /* Hero Section */
 #hero {
   position: relative;
-  height: 400px;
+  height: 448px;
+  margin-top: 48px;
   overflow: hidden;
 }
 
